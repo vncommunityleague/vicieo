@@ -1,0 +1,11 @@
+{
+  "extends": "@vncommunityleague/tsconfig/react-library.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

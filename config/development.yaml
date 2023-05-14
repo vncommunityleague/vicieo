@@ -1,0 +1,5 @@
+servers:
+  vietnam_community_league:
+    host: "localhost"
+    port: 3000
+    public_url: "http://localhost:3000"
