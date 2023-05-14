@@ -1,3 +1,30 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord, faTwitch, faYoutube, faFacebook } from "@fortawesome/free-brands-svg-icons";
+
+const socialMediaLinks = [
+    {
+        title: "Discord",
+        icon: faDiscord,
+        href: "https://vcl.works/discord",
+    },
+    {
+        title: "Twitch",
+        icon: faTwitch,
+        href: "https://twitch.tv/vncommunityleague",
+    },
+    {
+        title: "YouTube",
+        icon: faYoutube,
+        href: "https://www.youtube.com/@vncommunityleague",
+    },
+    {
+        title: "Facebook",
+        icon: faFacebook,
+        href: "https://www.facebook.com/VNCommunityLeague",
+    },
+];
+
+
 export default function HomePage() {
     return (
         <main>
@@ -13,7 +40,7 @@ export default function HomePage() {
                     </div>
                 </div>
                 <div className="w-full py-8 flex flex-col items-center justify-center bg-white">
-                    <div className="max-w-6xl grid grid-cols-3 text-black">
+                    <div className="max-w-6xl grid grid-cols-1 sm:grid-cols-3 gap-y-4 text-black">
                         <div className="text-center">
                             <div className="px-2 py-3 text-xl font-bold">Contact</div>
                             <div className="px-2 py-3 text-base">
@@ -39,7 +66,25 @@ export default function HomePage() {
                         <div className="text-center">
                             <div className="px-2 py-3 text-xl font-bold">Follow</div>
                             <div className="px-2 py-3 text-base">
-                                <div className="mt-1 font-extralight"> Discord | YouTube | Twitch</div>
+                                <div className="flex justify-center mt-1">
+                                    <ul className="flex gap-3">
+                                        {socialMediaLinks.map((link) => {
+                                            return (
+                                                <li key={link.title}>
+                                                    <a
+                                                        href={link.href}
+                                                        target="_blank" rel="noopener noreferrer"
+                                                        title={link.title}
+                                                    >
+                                                        <div className="p-1.5">
+                                                            <FontAwesomeIcon icon={link.icon} className="h-5 w-5" />
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            );
+                                        })}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

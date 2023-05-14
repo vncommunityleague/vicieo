@@ -118,7 +118,9 @@ export default function StaffPage() {
                                         return (
                                             <li key={member.user_id}>
                                                 <div className="p-4">
-                                                    <a href={`https://osu.ppy.sh/users/${member.user_id}`}>
+                                                    <a href={`https://osu.ppy.sh/users/${member.user_id}`}
+                                                       target="_blank" rel="noopener noreferrer"
+                                                    >
                                                         <div className="flex justify-center items-center">
                                                             <div className="relative w-32 h-32">
                                                                 <Image
