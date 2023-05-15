@@ -91,9 +91,8 @@ const Sidebar = forwardRef<HTMLDivElement>(function Sidebar(props, ref) {
                                                 className={
                                                     "px-2 py-1 font-normal transition-colors duration-300" +
                                                     (pathname === link.href
-                                                            ? " text-black"
-                                                            : " text-zinc-400 hover:text-black/90"
-                                                    )
+                                                        ? " text-black"
+                                                        : " text-zinc-400 hover:text-black/90")
                                                 }
                                                 scroll={false}
                                             >

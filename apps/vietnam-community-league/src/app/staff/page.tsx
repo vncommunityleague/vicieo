@@ -99,7 +99,7 @@ export default function StaffPage() {
     return (
         <main>
             <div className="flex flex-col justify-around items-center">
-                <div className="max-w-4xl p-24 flex flex-col justify-center items-center text-center">
+                <div className="max-w-4xl px-4 py-24 flex flex-col justify-center items-center text-center">
                     <div className="text-6xl font-medium">Staff</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
                     <div className="text-lg">
@@ -118,8 +118,10 @@ export default function StaffPage() {
                                         return (
                                             <li key={member.user_id}>
                                                 <div className="p-4">
-                                                    <a href={`https://osu.ppy.sh/users/${member.user_id}`}
-                                                       target="_blank" rel="noopener noreferrer"
+                                                    <a
+                                                        href={`https://osu.ppy.sh/users/${member.user_id}`}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
                                                     >
                                                         <div className="flex justify-center items-center">
                                                             <div className="relative w-32 h-32">

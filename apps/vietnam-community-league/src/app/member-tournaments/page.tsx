@@ -23,10 +23,10 @@ export default function MemberTournamentsPage() {
     return (
         <main>
             <div className="flex flex-col justify-around items-center">
-                <div className="max-w-4xl p-24 flex flex-col justify-center items-center text-center">
-                    <div className="text-6xl font-medium">Member Tournaments</div>
+                <div className="max-w-4xl px-4 py-24 flex flex-col justify-center items-center text-center">
+                    <div className="text-4xl sm:text-6xl font-medium">Member Tournaments</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
-                    <div className="text-lg">These are tournaments that VCL team directly organize.</div>
+                    <div className="text-base sm:text-lg">These are tournaments that VCL team directly organize.</div>
                 </div>
                 <div className="w-full flex flex-col justify-center items-center bg-white">
                     <div className="max-w-6xl text-black">
@@ -34,9 +34,9 @@ export default function MemberTournamentsPage() {
                             {tournaments.map((tournament) => {
                                 return (
                                     <li key={tournament.name}>
-                                        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-y-1 lg:gap-y-10 p-8">
-                                            <div className="w-1/2 lg:w-1/3 flex justify-center items-center">
-                                                <div className="relative w-96 h-56">
+                                        <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-y-1 lg:gap-y-10 p-8">
+                                            <div className="flex justify-center items-center">
+                                                <div className="relative w-72 sm:w-96 h-40 sm:h-56">
                                                     <Image
                                                         src={tournament.banner_path}
                                                         alt="Tournament Banner"
@@ -46,7 +46,7 @@ export default function MemberTournamentsPage() {
                                                     />
                                                 </div>
                                             </div>
-                                            <div className="pl-12 mt-2 lg:mt-8 text-center lg:text-left">
+                                            <div className="pl-0 lg:pl-12 mt-2 lg:mt-8 text-center lg:text-left">
                                                 <div className="text-4xl font-semibold">{tournament.name}</div>
                                                 <div className="mt-3 text-base font-light">
                                                     {tournament.description}

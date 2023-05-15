@@ -29,7 +29,7 @@ export default function AffiliateTournamentsPage() {
     return (
         <main>
             <div className="flex flex-col justify-around items-center">
-                <div className="max-w-4xl p-24 flex flex-col justify-center items-center text-center">
+                <div className="max-w-4xl px-4 py-24 flex flex-col justify-center items-center text-center">
                     <div className="text-6xl font-medium">Affiliate Tournaments</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
                     <div className="text-lg">
@@ -44,7 +44,7 @@ export default function AffiliateTournamentsPage() {
                                     <li key={tournament.name}>
                                         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-y-1 lg:gap-y-10 p-8">
                                             <div className="w-1/2 lg:w-1/3 flex justify-center items-center">
-                                                <div className="relative w-96 h-56">
+                                                <div className="relative w-72 sm:w-96 h-40 sm:h-56">
                                                     <Image
                                                         src={tournament.banner_path}
                                                         alt="Tournament Banner"

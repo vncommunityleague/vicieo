@@ -24,12 +24,11 @@ const socialMediaLinks = [
     },
 ];
 
-
 export default function HomePage() {
     return (
         <main>
             <div className="flex flex-col justify-around items-center">
-                <div className="max-w-4xl min-h-screen flex flex-col items-center justify-center text-center">
+                <div className="max-w-4xl min-h-screen px-4 py-24 flex flex-col items-center justify-center text-center">
                     <div className="text-6xl font-medium">Vietnam Community League</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
                     <div className="text-lg">
@@ -73,7 +72,8 @@ export default function HomePage() {
                                                 <li key={link.title}>
                                                     <a
                                                         href={link.href}
-                                                        target="_blank" rel="noopener noreferrer"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
                                                         title={link.title}
                                                     >
                                                         <div className="p-1.5">
