@@ -92,6 +92,9 @@ next-env.d.ts
 # Yarn Integrity file
 .yarn-integrity
 
+# YAML configuration files
+development.yaml
+
 # dotenv environment variable files
 .env
 .env.development.local

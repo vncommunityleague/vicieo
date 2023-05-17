@@ -18,8 +18,7 @@ export default function DonatePage() {
                                 height="630"
                                 title="vncommunityleague"
                                 className="w-full p-1 border-0 bg-[#f9f9f9]"
-                            >
-                            </iframe>
+                            ></iframe>
                         </div>
                     </div>
                 </div>
