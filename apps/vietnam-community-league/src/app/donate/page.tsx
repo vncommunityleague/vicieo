@@ -5,7 +5,7 @@ export const metadata = {
 export default function DonatePage() {
     return (
         <main>
-            <div className="flex min-h-screen flex-col justify-around items-center">
+            <div className="flex flex-col justify-around items-center">
                 <div className="w-full max-w-4xl px-4 py-24 flex flex-col justify-between items-center text-center">
                     <div className="text-6xl font-medium">Donate</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
