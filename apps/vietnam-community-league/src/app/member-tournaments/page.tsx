@@ -22,14 +22,14 @@ export const metadata = {
 export default function MemberTournamentsPage() {
     return (
         <main>
-            <div className="flex flex-col justify-around items-center">
+            <div className="min-h-screen flex flex-col items-center">
                 <div className="max-w-4xl px-4 py-24 flex flex-col justify-center items-center text-center">
                     <div className="text-4xl sm:text-6xl font-medium">Member Tournaments</div>
                     <div className="w-28 mt-6 mb-8 border-b-8 border-[#e6765f]"></div>
                     <div className="text-base sm:text-lg">These are tournaments that VCL team directly organize.</div>
                 </div>
-                <div className="w-full flex flex-col justify-center items-center bg-white">
-                    <div className="max-w-6xl text-black">
+                <div className="w-full flex flex-col flex-grow justify-start items-center bg-white">
+                    <div className="max-w-6xl mt-4 text-black">
                         <ul className="flex flex-col">
                             {tournaments.map((tournament) => {
                                 return (
