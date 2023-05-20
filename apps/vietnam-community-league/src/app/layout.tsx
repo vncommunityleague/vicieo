@@ -1,12 +1,14 @@
 import "../styles/globals.css";
 import { Inter } from "next/font/google";
 import { Header } from "@/components/Header";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+export const metadata: Metadata = {
     title: "Vietnam Community League",
     description: "For osu! Vietnam community, by osu! Vietnam community",
+    themeColor: "#e6765f",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
