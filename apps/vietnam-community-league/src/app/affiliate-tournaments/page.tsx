@@ -22,7 +22,8 @@ const tournaments: Array<{ name: string; description: string; banner_path: strin
 ];
 
 export const metadata = {
-    title: "Vietnam Community League - Affiliate Tournaments",
+    title: "Affiliate Tournaments | Vietnam Community League",
+    description: "These are tournaments that VCL does not organize, but provides support in administrative roles.",
 };
 
 export default function AffiliateTournamentsPage() {

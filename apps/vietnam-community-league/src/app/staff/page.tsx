@@ -92,7 +92,8 @@ const getGroupMembers = (ids: Array<string>) => {
 };
 
 export const metadata = {
-    title: "Vietnam Community League - Staff",
+    title: "Staff | Vietnam Community League",
+    description: "Those who run the show and dedicated their time to keep VCL being relevant.",
 };
 
 export default function StaffPage() {

@@ -1,5 +1,6 @@
 export const metadata = {
-    title: "Vietnam Community League - Donate",
+    title: "Donate | Vietnam Community League",
+    description: "Like our work and would like to support us?",
 };
 
 export default function DonatePage() {

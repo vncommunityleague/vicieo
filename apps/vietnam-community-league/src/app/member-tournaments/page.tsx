@@ -16,7 +16,8 @@ const tournaments: Array<{ name: string; description: string; banner_path: strin
 ];
 
 export const metadata = {
-    title: "Vietnam Community League - Member Tournaments",
+    title: "Member Tournaments | Vietnam Community League",
+    description: "These are tournaments that VCL team directly organize.",
 };
 
 export default function MemberTournamentsPage() {
