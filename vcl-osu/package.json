@@ -1,0 +1,24 @@
+{
+  "name": "vcl-osu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "keywords": [
+    "vcl",
+    "vcl-osu"
+  ],
+  "author": "Vietnam Community League",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@astrojs/tailwind": "^3.1.3",
+    "astro": "^2.5.6",
+    "tailwindcss": "^3.0.24"
+  }
+}
