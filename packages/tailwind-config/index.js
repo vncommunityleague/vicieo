@@ -1,12 +1,8 @@
+import colors from "tailwindcss/colors";
+
 /** @type {import("tailwindcss").Config} */
-
-const colors = require("tailwindcss/colors");
-
-module.exports = {
-    content: [
-        "./src/**/*.{ts,tsx}",
-        "../../packages/**/*.{ts,tsx}",
-    ],
+export default {
+    content: ["src/**/*.{html,js,svelte,ts}", "../../packages/**/*.{html,js,svelte,ts}}"],
     theme: {
         extend: {
             colors: {

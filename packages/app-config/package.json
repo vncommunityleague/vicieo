@@ -3,26 +3,39 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "tsc -w",
-    "build": "tsc",
-    "check-types": "tsc --noEmit"
+    "dev": "tsc -w -p tsconfig-esm.json && tsc -w -p tsconfig-cjs.json",
+    "build:esm": "pnpm clean:esm && tsc -p tsconfig-esm.json",
+    "build:cjs": "pnpm clean:cjs && tsc -p tsconfig-cjs.json",
+    "build": "pnpm clean && pnpm build:esm && pnpm build:cjs",
+    "check-types": "tsc --noEmit",
+    "clean:esm": "tsc --build --clean && rimraf --glob \"dist/esm\"",
+    "clean:cjs": "tsc --build --clean && rimraf --glob \"dist/cjs\"",
+    "clean": "tsc --build --clean && rimraf --glob \"dist/\""
   },
   "exports": {
     ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": {
+        "default": "./dist/esm/index.js",
+        "types": "./dist/esm/index.d.ts"
+      },
+      "require": {
+        "default": "./dist/cjs/index.js",
+        "types": "./dist/cjs/index.d.ts"
+      }
     },
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/cjs/index.d.ts",
   "dependencies": {
-    "config": "^3.3.9"
+    "config": "^3.3.9",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
-    "@types/config": "^3.3.0",
     "@vncommunityleague/tsconfig": "workspace:*",
+    "@types/config": "^3.3.0",
+    "rimraf": "^5.0.1",
     "typescript": "5.0.2"
   }
 }

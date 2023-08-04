@@ -1,0 +1,11 @@
+{
+  "name": "@vncommunityleague/styles",
+  "version": "0.1.0",
+  "private": true,
+  "style": "styles.css",
+  "exports": {
+    ".": "./styles.css",
+    "./styles": "./styles.css",
+    "./styles.css": "./styles.css"
+  }
+}

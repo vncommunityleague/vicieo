@@ -11,8 +11,8 @@
       ],
       "outputs": [
         "dist/**",
-        ".next/**",
-        "!.next/cache/**"
+        ".svelte-kit/**",
+        ".vercel/**"
       ]
     },
     "lint": {},

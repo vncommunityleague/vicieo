@@ -3,9 +3,11 @@
 # Testing
 /coverage
 
-# Next.js
-/.next/
-/out/
+# Svetle Kit
+.svelte-kit
+package/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 
 # Production
 /build
@@ -96,11 +98,9 @@ next-env.d.ts
 development.yaml
 
 # dotenv environment variable files
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
+.env.*
+!.env
+!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache

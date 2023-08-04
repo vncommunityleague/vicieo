@@ -1,19 +1,19 @@
 {
-  "extends": "@vncommunityleague/tsconfig/nextjs.json",
+  "extends": "@vncommunityleague/tsconfig/svelte-kit.json",
   "compilerOptions": {
     "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
+      "$lib": ["./src/lib"],
+      "$lib/*": ["./src/lib/*"],
+      "$components/*": ["./src/lib/components/*"]
+    },
+    "rootDirs": [".", ".svelte-kit/types"]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts"
-  ],
+  "include": ["**/*.js", "**/*.ts", "**/*.svelte", ".svelte-kit/ambient.d.ts", ".svelte-kit/types/**/*.ts"],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "./src/service-worker.js",
+    "./src/service-worker.ts",
+    "./src/service-worker.d.ts",
+    ".svelte-kit/[!ambient.d.ts]**"
   ]
 }

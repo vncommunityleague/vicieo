@@ -2,6 +2,7 @@
   "name": "@vncommunityleague/tailwind-config",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
