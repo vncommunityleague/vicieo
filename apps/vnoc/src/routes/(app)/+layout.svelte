@@ -4,8 +4,10 @@
 
 <div class="app-layout">
     <Header />
-    <slot />
-    <Footer />
+    <div class="flex flex-col flex-1 min-h-screen">
+        <slot />
+        <Footer />
+    </div>
 </div>
 
 <style lang="postcss">

@@ -11,7 +11,7 @@
     }}
 />
 
-<main>
+<main class="flex flex-1">
     <div class="flex flex-col max-w-7xl mx-auto px-4 sm:px-12 py-28">
         <div class="mx-auto">
             <nav>

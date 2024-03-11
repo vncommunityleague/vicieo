@@ -12,8 +12,8 @@
     }}
 />
 
-<main class="flex-1">
-    <div class="flex flex-col justify-center items-center max-w-7xl min-h-screen mx-auto py-16 md:py-24">
+<main class="flex flex-1">
+    <div class="flex flex-1 flex-col justify-center max-w-7xl mx-auto px-2 py-16 md:py-24">
         <div class="relative select-none">
             <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
                 <div class="text-5xl/none sm:text-[76px]/none font-bold tracking-[0.01rem] text-center">

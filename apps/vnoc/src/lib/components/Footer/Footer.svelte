@@ -1,9 +1,8 @@
 <script lang="ts">
-    import { page } from "$app/stores";
     import { DiscordLogo, FacebookLogo, OsuLogo, TwitchLogo } from "$lib/components";
 </script>
 
-<div class="fixed left-0 bottom-0 w-full z-10 bg-[#050505]/50">
+<div class="w-full z-10 bg-[#050505]/50">
     <div class="w-full mx-auto">
         <div
             class="flex flex-col md:flex-row justify-between items-center relative h-[150px] md:h-[70px] px-10 md:px-24 py-4"
