@@ -1,10 +1,13 @@
 {
   "name": "@vncommunityleague/tailwind-config",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
-  "main": "index.js",
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
   "devDependencies": {
+    "@vncommunityleague/typescript-config": "workspace:*",
     "tailwindcss": "^3.3.2"
   }
 }

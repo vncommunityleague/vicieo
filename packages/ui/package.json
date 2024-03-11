@@ -1,0 +1,17 @@
+{
+  "name": "@vncommunityleague/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "module": "index.ts",
+  "main": "index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "svelte": "./index.ts"
+    }
+  },
+  "devDependencies": {
+    "@vncommunityleague/eslint-config": "workspace:*",
+    "svelte": "^4.2.9"
+  }
+}
