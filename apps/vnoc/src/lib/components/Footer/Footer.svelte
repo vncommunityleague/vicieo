@@ -9,7 +9,7 @@
         >
             <div class="flex flex-col md:flex-row items-center gap-2">
                 <div>
-                    <div class="italic text-sm/4 text-center md:text-right">This tournament is a part of</div>
+                    <div class="italic text-sm/4 text-center md:text-right">Giải đấu được tổ chức bởi</div>
                 </div>
                 <div>
                     <a href="https://vcl.id.vn" target="_blank" rel="noopener noreferrer">
