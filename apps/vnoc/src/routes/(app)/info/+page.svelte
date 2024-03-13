@@ -194,11 +194,11 @@
                                                 định thứ tự. Bên thắng roll có quyền chọn thứ tự pick hoặc thứ tự ban,
                                                 bên thua có quyền chọn thứ tự còn lại. Bên ban trước có quyền protect
                                                 trước. Lượt protect sẽ tiến hành trước lượt ban pick.
-                                            </li>
-                                            <li>
-                                                <strong>VD:</strong> T1 roll 99, T2 roll 100. T2 có quyền chọn 1 trong các
-                                                thứ tự sau: 1st pick / 1st ban / 2nd pick / 2nd ban. Nếu T2 chọn 2nd pick,
-                                                T1 có quyền chọn 1st ban hoặc 2nd ban.
+                                                <div class="ml-3 mt-2 text-xs">
+                                                    <strong><u>VD:</u></strong> T1 roll 99, T2 roll 100. T2 có quyền chọn
+                                                    1 trong các thứ tự sau: 1st pick / 1st ban / 2nd pick / 2nd ban. Nếu
+                                                    T2 chọn 2nd pick, T1 có quyền chọn 1st ban hoặc 2nd ban.
+                                                </div>
                                             </li>
                                             <li>
                                                 Mỗi người chơi có 1 lượt ban (Swiss) hoặc 2 lượt ban (Knockout). Với 2
@@ -216,12 +216,16 @@
                                                 Với mọi lượt ban/pick cũng như chờ sẵn sàng, người chơi có tối đa 90
                                                 giây để sẵn sàng. Trong lượt ban/pick, nếu vượt quá timer trên thì trọng
                                                 tài sẽ dùng lệnh roll để xác định map sẽ ban/pick.
-                                            </li>
-                                            <li>Đối với lần vi phạm timer đầu tiên: Cảnh cáo.</li>
-                                            <li>
-                                                Từ lần vi phạm thứ 2: Referee sẽ dùng lệnh !roll &#x003C;số map còn
-                                                lại&#x003E; dể chọn ra map tiếp theo được ban/pick. Thứ tự ban pick sau
-                                                đó không thay đổi.
+                                                <div class="ml-3 mt-2 text-xs">
+                                                    <ul class="information__container__body__list list-disc">
+                                                        <li>Đối với lần vi phạm timer đầu tiên: Cảnh cáo.</li>
+                                                        <li>
+                                                            Từ lần vi phạm thứ 2: Referee sẽ dùng lệnh !roll &#x003C;số
+                                                            map còn lại&#x003E; dể chọn ra map tiếp theo được ban/pick.
+                                                            Thứ tự ban pick sau đó không thay đổi.
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </li>
                                             <li>
                                                 Người chơi có toàn quyền chọn map có trong pool theo bất cứ trình tự nào
@@ -360,8 +364,8 @@
                                 </div>
                             </li>
                         </ul>
-                        <div>
-                            <p class="italic text-center">
+                        <div class="mt-2">
+                            <p class="italic">
                                 Trong trường hợp cả 2 người chơi đều vắng mặt, người chơi có xếp hạng vòng loại cao hơn
                                 được đi tiếp (win by default).
                             </p>
