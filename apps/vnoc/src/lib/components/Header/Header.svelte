@@ -10,9 +10,13 @@
         // { title: "Staff", path: "/staff" },
         // { title: "Sheets", path: "/sheets" }
     ];
+
+    let scrollPositionY = 0;
 </script>
 
-<div class="fixed left-0 top-0 w-full z-10 bg-[#050505]/50">
+<svelte:window bind:scrollY={scrollPositionY} />
+
+<div class={`fixed left-0 top-0 w-full z-10 ${scrollPositionY > 20 ? "bg-[#050505]" : "bg-[#050505]/50"}`}>
     <div class="w-full mx-auto">
         <div class="flex justify-between items-center relative h-[70px] px-4 md:px-28">
             <div class="flex items-center">
@@ -35,7 +39,13 @@
                             {#each links as link (link.path)}
                                 <li>
                                     <a href={link.path}>
-                                        <div>
+                                        <div
+                                            class={`text-base font-bold duration-0 ${
+                                                $page.url.pathname.split("/")[1] === link.path.substring(1)
+                                                    ? "border-b"
+                                                    : "border-b-0"
+                                            }`}
+                                        >
                                             {link.title}
                                         </div>
                                     </a>

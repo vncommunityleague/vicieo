@@ -45,34 +45,30 @@
                     <div class="information__container__body">
                         <ul class="information__container__body__list list-disc">
                             <li>
-                                <strong>Vietnam osu! Championship 2024 (VNOC5)</strong> là giải đấu osu! standard theo
-                                thể
+                                <strong>Vietnam osu! Championship 2024 (VNOC5)</strong> là giải đấu osu! standard theo thể
                                 thức Head-to-Head 1v1. Score V2 và NF sẽ được áp dụng cho mọi map trong giải.
                             </li>
                             <li>
                                 <strong
-                                >Giải dành riêng cho những người chơi có cờ Việt Nam trên profile và không có ngoại
+                                    >Giải dành riêng cho những người chơi có cờ Việt Nam trên profile và không có ngoại
                                     lệ</strong
                                 >.
                             </li>
                             <li>Giải đấu không có giới hạn về rank đối với người tham gia.</li>
                             <li>
-                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! tournament staff để đảm
-                                bảo
-                                người chơi không vi phạm các quy định hiện có của osu! và đủ điều kiện tham gia giải
-                                đấu.
+                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! tournament staff để đảm bảo
+                                người chơi không vi phạm các quy định hiện có của osu! và đủ điều kiện tham gia giải đấu.
                             </li>
                             <li>
-                                <strong>Vòng sơ loại (Qualifiers)</strong> sẽ được áp dụng để chọn ra 32 người chơi tốt
-                                nhất
+                                <strong>Vòng sơ loại (Qualifiers)</strong> sẽ được áp dụng để chọn ra 32 người chơi tốt nhất
                                 được tiến vào vòng thi đấu chính thức của giải.
                             </li>
                             <li>
                                 Khác với những giải đấu truyền thống khác trong và ngoài nước, VNOC5 sẽ áp dụng thể thức
                                 mở rộng hơn, gồm 5 lượt thi đấu trong vòng Thuỵ Sĩ (Swiss), và 4 lượt thi đấu trong vòng
                                 loại trực tiếp (Knockout). Thông tin chi tiết có trong phẩn <span class="font-bold"
-                            >THỂ THỨC</span
-                            >
+                                    >THỂ THỨC</span
+                                >
                             </li>
                             <li>
                                 Trong suốt quá trình tham gia giải, người chơi bắt buộc phải có mặt trong server
@@ -81,8 +77,8 @@
                             </li>
                             <li>
                                 Khác với những mùa trước, người chơi vô địch mùa giải VNOC gần nhất <strong
-                            >được tham gia</strong
-                            >, vì thời gian nghỉ giữa 2 mùa giải dài hơn bình thường.
+                                    >được tham gia</strong
+                                >, vì thời gian nghỉ giữa 2 mùa giải dài hơn bình thường.
                             </li>
                             <li>
                                 Staff của giải bị cấm tham gia giải đấu, với ngoại lệ gồm <strong>Streamer</strong>,
@@ -162,12 +158,14 @@
                                                 cho phép.
                                             </li>
                                             <li>10 phút trước giờ bắt đầu, trọng tài sẽ gửi lời mời tới người chơi.</li>
-                                            <li>Mappool Qualifiers sẽ được chơi 1 lần duy nhất, theo đúng thứ tự đã được
+                                            <li>
+                                                Mappool Qualifiers sẽ được chơi 1 lần duy nhất, theo đúng thứ tự đã được
                                                 công bố.
                                             </li>
                                             <li>Người chơi được yêu cầu hoàn thành toàn bộ các map có trong pool.</li>
-                                            <li>Vòng loại sẽ sử dụng cách tính xếp hạng <strong>z-sum</strong> để lấy
-                                                top 32 người chơi tốt nhất.
+                                            <li>
+                                                Vòng loại sẽ sử dụng cách tính xếp hạng <strong>z-sum</strong> để lấy top
+                                                32 người chơi tốt nhất.
                                             </li>
                                         </ul>
                                     </div>
@@ -178,44 +176,52 @@
                                     <div class="font-bold text-lg">Các vòng sau</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li><strong>Giải sẽ không có warmup trước trận đấu, người chơi sẽ tự warmup
-                                                trước khi vào lobby</strong>.
+                                            <li>
+                                                <strong
+                                                    >Giải sẽ không có warmup trước trận đấu, người chơi sẽ tự warmup
+                                                    trước khi vào lobby</strong
+                                                >.
                                             </li>
                                             <li>10 phút trước giờ bắt đầu, trọng tài sẽ gửi lời mời tới người chơi.</li>
-                                            <li><strong>Tương tự VNOC4, giải đấu sẽ có lượt Protect - bảo vệ map khỏi
-                                                việc bị cấm</strong>.
+                                            <li>
+                                                <strong
+                                                    >Tương tự VNOC4, giải đấu sẽ có lượt Protect - bảo vệ map khỏi việc
+                                                    bị cấm</strong
+                                                >.
                                             </li>
-                                            <li>Trước khi bắt đầu lượt ban pick, người chơi cần dùng lệnh !roll để xác
+                                            <li>
+                                                Trước khi bắt đầu lượt ban pick, người chơi cần dùng lệnh !roll để xác
                                                 định thứ tự. Bên thắng roll có quyền chọn thứ tự pick hoặc thứ tự ban,
                                                 bên thua có quyền chọn thứ tự còn lại. Bên ban trước có quyền protect
                                                 trước. Lượt protect sẽ tiến hành trước lượt ban pick.
                                             </li>
-                                            <li><strong>VD:</strong> T1 roll 99, T2 roll 100. T2 có quyền chọn 1 trong
-                                                các thứ tự sau:
-                                                1st pick / 1st ban / 2nd pick / 2nd ban. Nếu T2 chọn 2nd pick, T1 có
-                                                quyền chọn 1st ban hoặc 2nd ban.
+                                            <li>
+                                                <strong>VD:</strong> T1 roll 99, T2 roll 100. T2 có quyền chọn 1 trong các
+                                                thứ tự sau: 1st pick / 1st ban / 2nd pick / 2nd ban. Nếu T2 chọn 2nd pick,
+                                                T1 có quyền chọn 1st ban hoặc 2nd ban.
                                             </li>
                                             <li>
                                                 Mỗi người chơi có 1 lượt ban (Swiss) hoặc 2 lượt ban (Knockout). Với 2
-                                                lượt ban, người chơi <strong>được quyền ban map trong cùng mod
-                                                pool</strong>.
+                                                lượt ban, người chơi <strong
+                                                    >được quyền ban map trong cùng mod pool</strong
+                                                >.
                                             </li>
                                             <li>
-                                                <strong>Lượt ban thứ 2 sẽ được triển khai sau khi chơi 4 map (2
-                                                    pick/người chơi)</strong>.
+                                                <strong
+                                                    >Lượt ban thứ 2 sẽ được triển khai sau khi chơi 4 map (2 pick/người
+                                                    chơi)</strong
+                                                >.
                                             </li>
                                             <li>
                                                 Với mọi lượt ban/pick cũng như chờ sẵn sàng, người chơi có tối đa 90
                                                 giây để sẵn sàng. Trong lượt ban/pick, nếu vượt quá timer trên thì trọng
                                                 tài sẽ dùng lệnh roll để xác định map sẽ ban/pick.
                                             </li>
+                                            <li>Đối với lần vi phạm timer đầu tiên: Cảnh cáo.</li>
                                             <li>
-                                                Đối với lần vi phạm timer đầu tiên: Cảnh cáo.
-                                            </li>
-                                            <li>
-                                                Từ lần vi phạm thứ 2: Referee sẽ dùng lệnh !roll &#x003C;số map còn lại&#x003E;
-                                                dể chọn ra map tiếp theo được ban/pick. Thứ tự ban pick sau đó không
-                                                thay đổi.
+                                                Từ lần vi phạm thứ 2: Referee sẽ dùng lệnh !roll &#x003C;số map còn
+                                                lại&#x003E; dể chọn ra map tiếp theo được ban/pick. Thứ tự ban pick sau
+                                                đó không thay đổi.
                                             </li>
                                             <li>
                                                 Người chơi có toàn quyền chọn map có trong pool theo bất cứ trình tự nào
@@ -292,7 +298,8 @@
                                         <ul class="information__container__body__list list-[circle]">
                                             <li>Ngắt kết nối trước ¼: Chơi lại map sau khi hoàn thành mappool.</li>
                                             <li>Sau ¼: tính điểm như bình thường.</li>
-                                            <li>Ngắt kết nối và không có phản hồi với các map sau: Áp dụng xử phạt vắng
+                                            <li>
+                                                Ngắt kết nối và không có phản hồi với các map sau: Áp dụng xử phạt vắng
                                                 mặt.
                                             </li>
                                         </ul>
@@ -330,7 +337,8 @@
                                     <div class="font-bold text-lg">Vòng loại</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li>Người chơi có quyền thay đổi sang lobby khác trước khi hết thời gian
+                                            <li>
+                                                Người chơi có quyền thay đổi sang lobby khác trước khi hết thời gian
                                                 Qualifiers.
                                             </li>
                                         </ul>
@@ -342,7 +350,8 @@
                                     <div class="font-bold text-lg">Các vòng sau</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li>Hết 5p đầu: người chơi mất quyền ban map. Thay vào đó, trọng tài sẽ dùng
+                                            <li>
+                                                Hết 5p đầu: người chơi mất quyền ban map. Thay vào đó, trọng tài sẽ dùng
                                                 lệnh roll để xác định map ban.
                                             </li>
                                             <li>10p sau thời gian bắt đầu: Xử thua người chơi vắng mặt.</li>
@@ -351,13 +360,13 @@
                                 </div>
                             </li>
                         </ul>
+                        <div>
+                            <p class="italic text-center">
+                                Trong trường hợp cả 2 người chơi đều vắng mặt, người chơi có xếp hạng vòng loại cao hơn
+                                được đi tiếp (win by default).
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <p class="italic text-center">
-                        Trong trường hợp cả 2 người chơi đều vắng mặt, người chơi có xếp hạng vòng loại cao hơn được đi
-                        tiếp (win by default).
-                    </p>
                 </div>
             </div>
         </div>
