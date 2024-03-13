@@ -12,7 +12,7 @@
                     <div class="italic text-sm/4 text-center md:text-right">This tournament is a part of</div>
                 </div>
                 <div>
-                    <a href="https://hoaq.uk" target="_blank" rel="noopener noreferrer">
+                    <a href="https://vcl.id.vn" target="_blank" rel="noopener noreferrer">
                         <div class="relative">
                             <div class="relative h-10">
                                 <img
