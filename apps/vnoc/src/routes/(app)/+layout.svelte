@@ -12,7 +12,7 @@
 
 <style lang="postcss">
     :global(body) {
-        background-image: url("/assets/images/backgrounds/vnoc.png");
+        background-image: url("/assets/images/backgrounds/vnoc.jpg");
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
