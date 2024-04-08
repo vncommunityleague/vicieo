@@ -1,9 +1,22 @@
 <script lang="ts">
-    import { DiscordLogo, FacebookLogo, OsuLogo, TwitchLogo } from "$lib/components";
+    import { DiscordLogo, FacebookLogo, OsuLogo, TwitchLogo, WootingTextWhiteLogo } from "$lib/components";
 </script>
 
-<div class="w-full z-10 bg-[#050505]/50">
-    <div class="w-full mx-auto">
+<div class="w-full z-10">
+    <div>
+        <div class="mb-3 font-bold text-center">sponsored by</div>
+        <div class="flex justify-center">
+            <a
+                href="https://osu.ppy.sh/community/forums/topics/1639421"
+                title="Wooting"
+                target="_blank"
+                rel="noreferrer noopener"
+            >
+                <WootingTextWhiteLogo class="h-16" />
+            </a>
+        </div>
+    </div>
+    <div class="w-full mx-auto bg-[#050505]/50">
         <div
             class="flex flex-col md:flex-row justify-between items-center relative h-[150px] md:h-[70px] px-10 md:px-24 py-4"
         >
