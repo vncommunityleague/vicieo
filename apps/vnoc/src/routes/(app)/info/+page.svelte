@@ -105,6 +105,7 @@
                                             <li>Profile badge (pending).</li>
                                             <li>Profile banner.</li>
                                             <li>1x Áo VNOC5 kèm custom.</li>
+                                            <li>1x Keypad Wooting UwU.</li>
                                             <li>Gói quà tặng nhà vô địch (chi tiết sẽ được công bố sau).</li>
                                         </ul>
                                     </div>
