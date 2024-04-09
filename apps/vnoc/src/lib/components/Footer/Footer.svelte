@@ -4,14 +4,9 @@
 
 <div class="w-full z-10">
     <div>
-        <div class="mb-3 font-bold text-center">sponsored by</div>
+        <div class="mb-2 font-bold text-center">sponsored by</div>
         <div class="flex justify-center">
-            <a
-                href="https://osu.ppy.sh/community/forums/topics/1639421"
-                title="Wooting"
-                target="_blank"
-                rel="noreferrer noopener"
-            >
+            <a href="https://wooting.io" title="Wooting" target="_blank" rel="noreferrer noopener" class="px-4 py-3">
                 <WootingTextWhiteLogo class="h-16" />
             </a>
         </div>
