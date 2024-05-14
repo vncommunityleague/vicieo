@@ -19,6 +19,8 @@
         background-attachment: fixed;
         background-color: #050505;
         color: white;
+
+        @apply font-inter;
     }
 
     .app-layout {

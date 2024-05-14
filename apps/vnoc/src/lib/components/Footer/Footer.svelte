@@ -1,16 +1,28 @@
 <script lang="ts">
+    import { page } from "$app/stores";
     import { DiscordLogo, FacebookLogo, OsuLogo, TwitchLogo, WootingTextWhiteLogo } from "$lib/components";
 </script>
 
 <div class="w-full z-10">
-    <div>
-        <div class="mb-2 font-bold text-center">sponsored by</div>
-        <div class="flex justify-center">
-            <a href="https://wooting.io" title="Wooting" target="_blank" rel="noreferrer noopener" class="px-4 py-3">
-                <WootingTextWhiteLogo class="h-16" />
-            </a>
+    {#if $page.url.pathname !== "/watch"}
+        <div class="flex justify-center items-center">
+            <div class="mb-2 text-lg/6 text-right">
+                <div class="font-bold">VNOC5</div>
+                <div class="">được tài trợ bởi</div>
+            </div>
+            <div class="flex justify-center">
+                <a
+                    href="https://wooting.io"
+                    title="Wooting"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="px-4 py-3"
+                >
+                    <WootingTextWhiteLogo class="h-16" />
+                </a>
+            </div>
         </div>
-    </div>
+    {/if}
     <div class="w-full mx-auto bg-[#050505]/50">
         <div
             class="flex flex-col md:flex-row justify-between items-center relative h-[150px] md:h-[70px] px-10 md:px-24 py-4"
