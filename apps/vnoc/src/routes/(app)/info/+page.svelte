@@ -56,7 +56,7 @@
                             </li>
                             <li>Giải đấu không có giới hạn về rank đối với người tham gia.</li>
                             <li>
-                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! tournament staff để đảm bảo
+                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! staff để đảm bảo
                                 người chơi không vi phạm các quy định hiện có của osu! và đủ điều kiện tham gia giải đấu.
                             </li>
                             <li>
@@ -64,8 +64,8 @@
                                 được tiến vào vòng thi đấu chính thức của giải.
                             </li>
                             <li>
-                                Khác với những giải đấu truyền thống khác trong và ngoài nước, VNOC5 sẽ áp dụng thể thức
-                                mở rộng hơn, gồm 5 lượt thi đấu trong vòng Thuỵ Sĩ (Swiss), và 4 lượt thi đấu trong vòng
+                                Khác với những giải đấu truyền thống trong và ngoài nước, VNOC5 sẽ áp dụng thể thức
+                                mở rộng hơn, gồm 5 lượt thi đấu trong vòng Thuỵ Sĩ (Swiss) và 4 lượt thi đấu trong vòng
                                 loại trực tiếp (Knockout). Thông tin chi tiết có trong phẩn <span class="font-bold"
                                     >THỂ THỨC</span
                                 >
@@ -81,7 +81,7 @@
                                 >, vì thời gian nghỉ giữa 2 mùa giải dài hơn bình thường.
                             </li>
                             <li>
-                                Staff của giải bị cấm tham gia giải đấu, với ngoại lệ gồm <strong>Streamer</strong>,
+                                Staff của giải không được tham gia giải đấu, với ngoại lệ gồm <strong>Streamer</strong>,
                                 <strong>Commentator</strong> và <strong>GFX</strong>. Người chơi bị loại có thể đăng ký
                                 làm Playtester hoặc Referee.
                             </li>
@@ -101,12 +101,13 @@
                                     <div class="font-bold text-lg">Nhà vô địch:</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li>50% tiền donate từ cộng đồng.</li>
-                                            <li>Profile badge (pending).</li>
-                                            <li>Profile banner.</li>
-                                            <li>1x Áo VNOC5 kèm custom.</li>
-                                            <li>1x Keypad Wooting UwU.</li>
-                                            <li>Gói quà tặng nhà vô địch (chi tiết sẽ được công bố sau).</li>
+                                            <li>50% tiền donate từ cộng đồng</li>
+                                            <li>1 năm osu!supporter</li>
+                                            <li>Profile badge (pending)</li>
+                                            <li>Profile banner</li>
+                                            <li>1x Áo VNOC5 kèm custom</li>
+                                            <li>1x Keypad Wooting UwU - được tài trợ bởi Wooting</li>
+                                            <li>Gói quà tặng nhà vô địch (chi tiết sẽ được công bố sau)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -116,10 +117,11 @@
                                     <div class="font-bold text-lg">Top 2:</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li>30% tiền donate từ cộng đồng.</li>
-                                            <li>Profile banner.</li>
-                                            <li>1x Áo VNOC5 kèm custom.</li>
-                                            <li>Gói quà tặng top 2 (chi tiết sẽ được công bố sau).</li>
+                                            <li>30% tiền donate từ cộng đồng</li>
+                                            <li>6 tháng osu!supporter</li>
+                                            <li>Profile banner</li>
+                                            <li>1x Áo VNOC5 kèm custom</li>
+                                            <li>Gói quà tặng top 2 (chi tiết sẽ được công bố sau)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -129,10 +131,11 @@
                                     <div class="font-bold text-lg">Top 3:</div>
                                     <div class="mt-2 pl-3">
                                         <ul class="information__container__body__list list-[circle]">
-                                            <li>20% tiền donate từ cộng đồng.</li>
-                                            <li>Profile banner.</li>
-                                            <li>1x Áo VNOC5 kèm custom.</li>
-                                            <li>Gói quà tặng top 3 (chi tiết sẽ được công bố sau).</li>
+                                            <li>20% tiền donate từ cộng đồng</li>
+                                            <li>4 tháng osu!supporter</li>
+                                            <li>Profile banner</li>
+                                            <li>1x Áo VNOC5 kèm custom</li>
+                                            <li>Gói quà tặng top 3 (chi tiết sẽ được công bố sau)</li>
                                         </ul>
                                     </div>
                                 </div>
