@@ -24,9 +24,9 @@
                 </div>
             </div>
             <div class="relative flex justify-center">
-                <svg viewBox="0 0 612 180" width="612" height="180">
+                <svg viewBox="0 0 616 180" width="616" height="180">
                     <text
-                        x="32"
+                        x="0"
                         y="172"
                         style="fill: none; stroke: white; stroke-width: 2px; stroke-linejoin: round"
                         class="italic font-extrabold text-[230px] leading-none opacity-60"
