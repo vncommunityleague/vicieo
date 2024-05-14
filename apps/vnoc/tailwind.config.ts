@@ -7,7 +7,9 @@ const config: Pick<Config, "content" | "presets" | "theme" | "plugins"> = {
     theme: {
         extend: {
             fontFamily: {
+                sans: ["Inter", ...defaultTheme.fontFamily.sans],
                 inter: ["Inter", "sans-serif"],
+                montserrat: ["Montserrat", "sans-serif"],
                 anicons: ["'Anicons Regular'", "sans-serif"],
             },
             transitionProperty: {

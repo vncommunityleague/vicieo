@@ -56,16 +56,16 @@
                             </li>
                             <li>Giải đấu không có giới hạn về rank đối với người tham gia.</li>
                             <li>
-                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! staff để đảm bảo
-                                người chơi không vi phạm các quy định hiện có của osu! và đủ điều kiện tham gia giải đấu.
+                                Quá trình <strong>Screening</strong> sẽ được thực hiện bởi osu! staff để đảm bảo người chơi
+                                không vi phạm các quy định hiện có của osu! và đủ điều kiện tham gia giải đấu.
                             </li>
                             <li>
                                 <strong>Vòng sơ loại (Qualifiers)</strong> sẽ được áp dụng để chọn ra 32 người chơi tốt nhất
                                 được tiến vào vòng thi đấu chính thức của giải.
                             </li>
                             <li>
-                                Khác với những giải đấu truyền thống trong và ngoài nước, VNOC5 sẽ áp dụng thể thức
-                                mở rộng hơn, gồm 5 lượt thi đấu trong vòng Thuỵ Sĩ (Swiss) và 4 lượt thi đấu trong vòng
+                                Khác với những giải đấu truyền thống trong và ngoài nước, VNOC5 sẽ áp dụng thể thức mở
+                                rộng hơn, gồm 5 lượt thi đấu trong vòng Thuỵ Sĩ (Swiss) và 4 lượt thi đấu trong vòng
                                 loại trực tiếp (Knockout). Thông tin chi tiết có trong phẩn <span class="font-bold"
                                     >THỂ THỨC</span
                                 >
