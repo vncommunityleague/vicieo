@@ -9,7 +9,7 @@
 
 <svelte:head>
     <title>{metadata.title}</title>
-    <meta name="title" content="Selenadia" />
+    <meta name="title" content={metadata.title} />
     <meta name="description" content={metadata.description} />
     <meta property="og:url" content={metadata.url} />
     <meta property="og:title" content={metadata.title} />
