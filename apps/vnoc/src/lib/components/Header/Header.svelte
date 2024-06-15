@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { VCLLogoFill } from "@vncommunityleague/ui";
     import { page } from "$app/stores";
 
     const links: Array<{ title: string; path: string }> = [
@@ -23,13 +24,7 @@
                 <div>
                     <a href="/">
                         <div class="relative">
-                            <div class="relative h-14 sm:h-16">
-                                <img
-                                    src="/assets/images/logos/vietnam_community_league.png"
-                                    alt="VCL Logo"
-                                    class="w-full h-full object-contain"
-                                />
-                            </div>
+                            <VCLLogoFill class="h-10 sm:h-12" />
                         </div>
                     </a>
                 </div>
